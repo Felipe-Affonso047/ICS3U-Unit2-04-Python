@@ -15,6 +15,8 @@ def main():
     print("Cost: ${:,.2f}".format(cost))
     print("HST: ${:,.2f}".format(cost * constants.HST))
     print("Cost: ${:,.2f}".format(cost + cost * constants.HST))
+    print()
+    print("Done")
 
 
 if __name__ == "__main__":
